@@ -1,6 +1,6 @@
 header{
   display: flex;
-  justify-content: space-space-between;
+  justify-content:space-between;
   align-items: center;
   height: 20%;
   box-shadow: 0 5px 15px rgba(0,0,0,.2);
@@ -8,16 +8,19 @@ header{
   margin-left: 10px;
   margin-right: 10px;
 }
-
+header .logo{
+  margin-left: 15px;
+}
 .search-bar {
   height: 44px;
-  width: 200px;
+  width: 300px;
   border-radius: 40px;
   display: flex;
   align-items: center;
   padding: 0 0 0 20px;
   position: relative;
   background: #fff;
+
 }
 
 .input {
@@ -25,20 +28,20 @@ header{
   height: 25px;
   width: 150px;
   color: #1b1b1b;
-  font-size: 15px;
+  font-size: 16px;
   outline: none;
 }
 
 .input:not(:placeholder-shown) + .label {
-  font-size: 9px;
-  top: 3px;
+  font-size: 25px;
+  top: 13px;
   color: #F94144;
 }
 
 .input:focus ~ .label {
   font-size: 9px;
   top: 3px;
-  color: #4279a3;
+  color: black;
   transition: all 0.5s ease;
 }
 
@@ -47,7 +50,8 @@ header{
   position: absolute;
   top: 13px;
   pointer-events: none;
-  transition: all 0.5s ease;
+  transition: all 1s ease;
+  font-size: 24px;
 }
 
 .search-btn {
@@ -55,7 +59,7 @@ header{
   border-radius: 20px;
   height: 40px;
   min-width: 40px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   justify-content: center;
@@ -63,6 +67,7 @@ header{
   right: 2px;
   position: absolute;
   transition: all 1s ease;
+  margin-right: 40px;
 }
 
 .icon {
@@ -84,6 +89,6 @@ header{
 }
 
 .input:focus ~ .highlight {
-  width: 150px;
+  width: 200px;
   transition: all 1s ease;
 }
