@@ -1,13 +1,10 @@
 *{
-  margin: 0px;
-  padding: 0px;
   box-sizing: border-box;
 }
 
 html{
   font-size: 10px;
   font-family: "Roboto", "sans-serif";
-  margin-left: 2.3rem;
 }
 
 a{
@@ -22,9 +19,8 @@ p{
 
 
 section{
-  padding: 10rem 0;
-  background-color: #fff;
-  padding: 10rem;
+  padding: 10rem, 5rem;
+  background-color: ece5e5;
 }
 
 .heading{
