@@ -22,6 +22,12 @@ p{
   padding: 5px;
 }
 
+.container{
+  margin: 8rem auto;
+  max-width: 1200px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  }
 
 section{
   padding: 10rem, 5rem;
@@ -41,28 +47,29 @@ section{
 
 .heading::after{
   content: "";
-  width: 10rem;
+  width: 15rem;
   height: .8rem;
   background-color: #4565e1;
   position: absolute;
-  bottom: -2rem;
+  bottom: -1rem;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 2rem;
 }
 
 .card-wrapper{
-  align-items: center;
   align-content: center;
   flex-direction: column;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card{
   float: left;
   background-color: #ffffff;
-  justify-content: center;
   margin: 20rem;
-  display: flex;
+  display:flex;
   flex-direction: column;
   flex: 1;
   flex-basis: 1%;
