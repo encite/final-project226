@@ -1,3 +1,8 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 *{
   box-sizing: border-box;
 }
@@ -32,7 +37,6 @@ section{
   text-align: center;
   color: #333;
   position: sticky;
-  /* position: sticky; */
 }
 
 .heading::after{
