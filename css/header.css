@@ -8,87 +8,60 @@ header{
   margin-left: 10px;
   margin-right: 10px;
 }
-header .logo{
+
+.logo_img{
+  height: 70px;
   margin-left: 15px;
 }
-.search-bar {
-  height: 44px;
-  width: 350px;
-  border-radius: 40px;
-  display: flex;
-  align-items: center;
-  padding: 0 0 0 20px;
-  position: relative;
-  background: #fff;
 
+.cf:before, .cf:after{
+    content:"";
+    display:inline-table;
 }
 
-.input {
-  border: none;
-  height: 25px;
-  width: 150px;
-  color: #1b1b1b;
-  font-size: 16px;
-  outline: none;
+.cf:after{
+  clear: both;
 }
 
-.input:not(:placeholder-shown) + .label {
-  font-size: 25px;
-  top: 13px;
-  color: #F94144;
+.search-wrapper {
+width: 250px;
+margin-right: 20px;
 }
 
-.input:focus ~ .label {
-  font-size: 9px;
-  top: 3px;
-  color: black;
-  transition: all 0.5s ease;
+.search-wrapper input {
+width: 150px;
+height: 40px;
+padding-left: 5px;
+padding-right: 5px;
+float: left;
+font-style: normal 16px 'Calibri';
+border: 0;
+background-color: #EEE;
 }
 
-.label {
-  color: #aaaaaa;
-  position: absolute;
-  top: 13px;
-  pointer-events: none;
-  transition: all 1s ease;
-  font-size: 24px;
+.search-wrapper input:focus {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
 }
 
-.search-btn {
-  background: #4279a3;
-  border-radius: 30px;
-  height: 50px;
-  min-width: 50px;
-  display: inline-flex;
-  align-items: center;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  justify-content: center;
-  cursor: pointer;
-  right: 2px;
-  position: absolute;
-  transition: all 1s ease;
-  margin-right: 40px;
+.search-wrapper input::-webkit-input-placeholder {
+   text-decoration: #999;
+   font-weight: bold;
+   font-style: italic;
 }
 
-.icon {
-  display: inline-flex;
-}
-
-.icon-18 {
-  width: 18px;
-  height: 18px;
-}
-
-.highlight {
-  width: 0px;
-  height: 1px;
-  background: #4279a3;
-  position: absolute;
-  bottom: 8px;
-  transition: all 1s ease;
-}
-
-.input:focus ~ .highlight {
-  width: 250px;
-  transition: all 1s ease;
+.search-wrapper button {
+overflow: visible;
+position: relative;
+float: right;
+border: 0px;
+padding: 0px;
+cursor:pointer;
+height: 40px;
+width: 80px;
+font-style: bold "Calibri";
+color: white;
+text-transform: uppercase;
+background-color: #D83C3C;
+border-radius: 3px;
 }
