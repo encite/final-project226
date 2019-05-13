@@ -1,0 +1,17 @@
+/* footer */
+.footer-image {
+  text-align: center;
+  width: 33.3333%;
+  float: right;
+  display: flex;
+}
+.footer-image ul {
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer-image ul li {
+  display: inline-block;
+  margin: 0 6px;
+}
