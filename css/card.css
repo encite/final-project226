@@ -74,6 +74,7 @@ section{
   flex: 1;
   flex-basis: 1%;
   margin: 4rem;
+  margin-top: 10%;
   margin-bottom: 10%;
   box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.5);
   padding: 3rem;
@@ -97,7 +98,7 @@ div.card-icon{
   float: left;
   width: 100px;
   height: 100px;
-  margin-left: 7rem;
+  margin-left: 8rem;
   margin-top: 4rem;
   z-index: 3;
   width: 50px;
@@ -125,15 +126,13 @@ img.profile-image{
 }
 
 h2{
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #333;
-  margin: 1.5rem 0;
 }
 
 .about{
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 2rem;
-  padding: 2rem;
   margin-left: 3rem;
   font-style: italic;
   text-align: inherit;
@@ -147,7 +146,7 @@ h2{
 }
 
 .dropdown .dropbtn {
-  font-size: 20px;
+  font-size: 1.6rem;
   border: 1px solid;
   outline-width: 10px;
   color: #010101;
