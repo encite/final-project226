@@ -45,7 +45,7 @@ section{
   position: sticky;
 }
 
-.heading::after{
+/* .heading::after{
   content: "";
   width: 15rem;
   height: .8rem;
@@ -55,7 +55,7 @@ section{
   left: 50%;
   transform: translateX(-50%);
   border-radius: 2rem;
-}
+} */
 
 .card-wrapper{
   align-content: center;
@@ -233,7 +233,7 @@ table, th, td {
 }
 th, td {
   padding: 15px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 li{
