@@ -1,15 +1,25 @@
 @viewport {
   width: device-width ;
-  zoom: 1.0 ;
+  zoom: 2.0 ;
 }
 
 *{
   box-sizing: border-box;
+
 }
 
 html{
   font-size: 10px;
   font-family: "Roboto", "sans-serif";
+  display: table;
+  margin: auto;
+  height: 100%;
+}
+
+body {
+  margin: 10px 0;
+  padding:0;
+  text-align:center;
 }
 
 a{
@@ -18,7 +28,7 @@ a{
 }
 
 p{
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   padding: 5px;
 }
 
@@ -45,7 +55,7 @@ section{
   position: sticky;
 }
 
-/* .heading::after{
+.heading::after{
   content: "";
   width: 15rem;
   height: .8rem;
@@ -55,14 +65,13 @@ section{
   left: 50%;
   transform: translateX(-50%);
   border-radius: 2rem;
-} */
+}
 
 .card-wrapper{
   align-content: center;
   flex-direction: column;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 22rem;
 }
 
 .card{
@@ -75,9 +84,8 @@ section{
   flex-basis: 1%;
   margin: 4rem;
   margin-top: 10%;
-  margin-bottom: 10%;
   box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.5);
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .card .card-img{
@@ -109,7 +117,7 @@ div.card-icon{
 div.card-content{
   float: left;
   width: 30rem;
-  margin-bottom: 5rem;
+  margin-bottom: 0rem;
   height: auto;
   text-align: center;
 }
@@ -231,14 +239,16 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
 th, td {
   padding: 15px;
   font-size: 1.5rem;
 }
 
-li{
+ul, li{
   text-decoration: none;
   list-style-image: none;
+
 }
 
 
