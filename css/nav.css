@@ -15,6 +15,7 @@
 .nav-links, .logo {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.9);
+    color: white;
 }
 
 .main-nav li {
@@ -26,6 +27,7 @@
   display: inline-block;
   font-size: 22px;
   margin-top: 10px;
+  color: white;
   }
 
 span#js-navbar-toggle {
