@@ -1,81 +1,73 @@
 /* footer */
-
-footer{
-  /* position: absolute; */
-  bottom: 0px;
-  height: auto;
-  display: inline-table;
-}
-
-.footer-image, .footer-content{
-  /* float:left; */
-  text-align: left;
-}
-
-.footer-link{
-  color: blue;
-}
-
-.footer-legal{
+.footer{
+  position: absolute;
+  margin-bottom: -200px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #201644;
+  color: white;
   text-align: center;
-  height: 4rem;
-  /* display: inline-block; */
+
 }
 
-.footer-legal p{
+.footer a{
+  text-decoration: none;
+  color: #FFFFFC;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+  color: #42858C;
+}
+
+.footer-img{
   display: inline-block;
-  float: left;
-  margin: 5px;
-  height: auto;
+  position: relative;
+  text-align: right;
 }
 
-@media only screen and (min-width: 768px) {
-  .footer-list-wrap {
-    width: 25%;
+@media only screen and (max-width: 750px) {
+
+  .nav_menu{
+    display: none;
+    background: #FFFFFC;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    top: 50px;
+    left: 0;
+    transition: 0.5s;
+   }
+
+   .nav_menu ul li{
+     display: block;
+     text-align: center;
+     border: 1px solid gray;
+     padding: 15px 30px;
+     margin-bottom: 10px
+
+   }
+    .cdu_logo{
+    width: 50%;
+    left: 110px;
+    margin-bottom: 20px;
   }
-}
 
-@media only screen and (min-width: 568px) {
-  .footer-list-wrap {
-    width: 33.3333%;
+    h1{
+    margin-top: 50px;
   }
-}
-
-.ftr-hdr {
-  color: #000;
-  font: 22px/1.4 'BebasNeueRegular', BebasNeue, 'Bebas Neue', Arial, sans-serif;
-  margin: 1em 0 0;
-}
-@media only screen and (min-width: 768px) {
-  .ftr-hdr {
-    font-size: 18px;
+    body{
+    padding: 7px;
   }
-}
 
-.ftr-links-sub {
-  padding: 0;
-  margin: 0;
-}
-
-.ftr-links-sub:after {
-  display: table;
-  clear: both;
-  content: "";
-}
-
-.ftr-links-sub li {
-  display: block;
-  list-style-type: none;
-  margin: 0;
-  padding: 3px 0;
-  color: #888;
-  font: normal normal 12px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  text-transform: uppercase;
-  /*width: 150px;*/
-}
-
-.footer-legal {
-  padding: 15px 0 0;
-  clear: right;
-  /* display: flex; */
+  .footer{
+    width: 100%;
+    text-align: center;
+  }
+  .footer-desc{
+    font-size: 10px;
+    padding: 1.5rem;
+    text-align: right;
+  }
 }
