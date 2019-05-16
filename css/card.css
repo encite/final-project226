@@ -212,22 +212,28 @@ h2{
   cursor: pointer;
 }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+table{
+  width: 100%;
 }
-
-th, td {
+table, th, td {
+  border-collapse: collapse;
+  border-style: hidden;
   padding: 15px;
   font-size: 1.5rem;
-}
-
-ul, li{
-  text-decoration: none;
-  list-style-image: none;
+  border: 1px solid black;
 
 }
 
+table td{
+  text-align: left;
+  padding: 1.2rem;
+}
+
+table tr th{
+  background-color: #046273;
+  color: white;
+  border: 1px solid black;
+}
 
 @media only screen and (max-width: 768px){
   .card{
