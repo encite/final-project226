@@ -68,5 +68,6 @@
   .footer-desc{
     font-size: 10px;
     padding: 1.5rem;
+    text-align: right;
   }
 }
