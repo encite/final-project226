@@ -70,8 +70,13 @@ background-color: #D83C3C;
 border-radius: 3px;
 }
 
+<<<<<<< HEAD
 /* Header Nav Bar */
 //*.nav_menu{
+=======
+/* Header Nav menu */
+.nav_menu{
+>>>>>>> f6cba39366c2cb492a02b9a583f67eda3945af4e
   top: 0;
   right:0;
   position: absolute;
@@ -82,6 +87,16 @@ border-radius: 3px;
   list-style-type: none;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+=======
+  display: flex;
+}
+
+.nav_menu a ul li{
+  height: 30px;
+  line-height: 50px;
+  display: block;
+>>>>>>> f6cba39366c2cb492a02b9a583f67eda3945af4e
 }
 .logo ul li{
   float: left;
@@ -92,3 +107,49 @@ border-radius: 3px;
   width: 100%;
   color: blue;
 }
+
+#hcontent, #hcontent2, #hcontent3{
+  display: none;
+}
+
+.menu_icon{
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  display: none;
+  float: left;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+label{
+  margin-left: -10000px
+}
+
+@media only screen and (max-width: 750px) {
+
+  .nav_menu{
+    display: none;
+    background: #FFFFFC;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    top: 50px;
+    left: 0;
+    transition: 0.5s;
+   }
+
+   .nav_menu ul li{
+     display: block;
+     text-align: center;
+     border: 1px solid gray;
+     padding: 15px 30px;
+     margin-bottom: 10px
+
+   }
