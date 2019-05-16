@@ -49,12 +49,12 @@ section{
   align-content: center;
   flex-direction: column;
   display: block;
+  margin-left: 2rem;
 }
 
 .card{
   float: left;
   background-color: #ffffff;
-  margin: 20rem;
   display:flex;
   flex-direction: column;
   flex: 1;
@@ -62,7 +62,7 @@ section{
   margin: 4rem;
   margin-top: 10%;
   box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.5);
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .card .card-img{
@@ -230,6 +230,7 @@ ul, li{
 
 
 @media only screen and (max-width: 768px){
+
   .card{
     width: 45%;
     height: 400px;
@@ -254,6 +255,7 @@ ul, li{
 
 @media only screen and (max-width: 425px){
   .card{
-    width: 95%;
+    width: 100%;
   }
+
 }
