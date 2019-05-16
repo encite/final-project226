@@ -70,7 +70,7 @@ background-color: #D83C3C;
 border-radius: 3px;
 }
 
-/* Header Nav Bar */
+/* Header Nav menu */
 .nav_menu{
   top: 0;
   right:0;
@@ -90,7 +90,6 @@ border-radius: 3px;
   padding: 0;
   display: flex;
 }
-
 
 .nav_menu a ul li{
   height: 30px;
@@ -115,3 +114,49 @@ border-radius: 3px;
   color: #42858C;
   background-color:#046273;
 }
+
+#hcontent, #hcontent2, #hcontent3{
+  display: none;
+}
+
+.menu_icon{
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  display: none;
+  float: left;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+label{
+  margin-left: -10000px
+}
+
+@media only screen and (max-width: 750px) {
+
+  .nav_menu{
+    display: none;
+    background: #FFFFFC;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    top: 50px;
+    left: 0;
+    transition: 0.5s;
+   }
+
+   .nav_menu ul li{
+     display: block;
+     text-align: center;
+     border: 1px solid gray;
+     padding: 15px 30px;
+     margin-bottom: 10px
+
+   }
