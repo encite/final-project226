@@ -48,7 +48,6 @@ section{
   align-content: center;
   flex-direction: column;
   display: block;
-  margin-left: 20rem;
 }
 
 .card{
@@ -252,7 +251,7 @@ ul, li{
   }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 425px){
   .card{
     width: 95%;
   }
