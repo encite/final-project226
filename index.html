@@ -23,6 +23,15 @@
           <img src="img/cdu_logo.png" alt="logo" class="logo_img"/>
         </a>
       </div>
+      <div class="nav_menu" id="nav_menu">
+      <ul>
+        <li><a href="https://www.cdu.edu.au/">CDU Home</a></li>
+        <li><a href="http://stapps.cdu.edu.au/f?p=100:30:3329404811806764">Library</a></li>
+        <li><a href="https://www.cdu.edu.au/library/">Courses</a></li>
+        <li><a href="https://online.cdu.edu.au/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1">Learnline</a></li>
+        <li><a href="https://www.cdu.edu.au/about/site-map">Site Map</a></li>
+      </ul>
+    </div>
       <form action="/search.html" class="search-wrapper cf">
         <input type="text" placeholder="Enter Search Term" required="">
         <button type="submit">Search</button>
@@ -103,9 +112,9 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">Sentence structure</a>
-            <a href="#">Parallel structure</a>
-            <a href="#">The use and non-use of articles</a>
+            <a href="#" id="myBtn6">Sentence structure</a>
+            <a href="#" id="myBtn7">Parallel structure</a>
+            <a href="#" id="myBtn8">The use and non-use of articles</a>
           </div>
         </div>
       </div>
@@ -126,8 +135,8 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="#">Where to avoid using personal pronouns</a>
-          <a href="#">Making judgements: evaluations and opinions</a>
+          <a href="#" id="myBtn9">Where to avoid using personal pronouns</a>
+          <a href="#" id="myBtn10">Making judgements: evaluations and opinions</a>
         </div>
       </div>
     </div>
@@ -215,7 +224,7 @@
     </div>
     </div>
 
-  <!-- Trigger/Open The Modal -->
+  <!-- Trigger/Open The Modal(1card) -->
   <!-- Language and culture -->
 <!-- The Modal -->
 <div id="myModal1" class="modal">
@@ -235,19 +244,16 @@
         <th> Inappropriate</th>
       </tr>
       <tr>
-        <td>
-          <ul>
-            <p> Indigenous Australian people</p>
-            <p> Aboriginal people</p>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <p> aborigines</p>
-            <p>Black or blackfellas</p>
-            <p>Half caste, quarter caste, full blood</p>
-          </ul>
-        </td>
+        <td>Indigenous Australian people</td>
+        <td>aborigines</td>
+      </tr>
+      <tr>
+        <td>Aboriginal people</td>
+        <td>Black or blackfellas</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Half caste, quarter caste, full blood</td>
       </tr>
     </table>
   </div>
@@ -255,28 +261,140 @@
 </div>
 
 <!-- Language and Australians of language backgrounds other than English-->
-<!-- The Modal -->
 <div id="myModal2" class="modal">
-
 <!-- Modal content -->
 <div class="modal-content">
   <span class="close" id="close2">&times;</span>
   <p>AIt is important too to avoid ethnic or racist labels which create negative stereotypes. Any person, who was born in Australia or has acquired Australian citizenship regardless of their cultural background or origins, should be referred to as Australian.</p>
-
-<p>Terms such as ‘wog’ or ‘dago’ or ‘chink’ should be avoided as they demean and belittle people and are seen as a form of racial harassment.</p>
+  <p>Terms such as ‘wog’ or ‘dago’ or ‘chink’ should be avoided as they demean and belittle people and are seen as a form of racial harassment.</p>
 </div>
 </div>
 <!-- Language and sexuality-->
-<!-- The Modal -->
 <div id="myModal3" class="modal">
-
 <!-- Modal content -->
 <div class="modal-content">
   <span class="close" id="close3">&times;</span>
   <p>Language that humiliates or intends harm to people on the basis of their assumed or actual sexual preference is not acceptable and can be offensive.</p>
   <p>Derogatory comments about gays, lesbian, bisexual members of the public are heard all too often. Unless members of these groups have used specific terms to reclaim their identity and as a means of empowerment, it is not generally acceptable to use terms such as 'dyke' or 'queer', 'poofter', and so on.</p>
+  <div class="table">
+    <table>
+        <tr>
+          <th> Appropriate </th>
+          <th> Inappropriate</th>
+        </tr>
+        <tr>
+          <td>lesbian, bisexual woman/man</td>
+          <td>dyke, faggot, homo, tranny, lemon</td>
+        </tr>
+        <tr>
+          <td>transgender person, transsexual person</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
 </div>
 </div>
+<!--Language and gender-->
+<div id="myModal4" class="modal">
+<!-- Modal content -->
+<div class="modal-content">
+  <span class="close" id="close4">&times;</span>
+  <p>Language that humiliates or intends harm to people on the basis of their assumed or actual sexual preference is not acceptable and can be offensive.</p>
+  <p>Derogatory comments about gays, lesbian, bisexual members of the public are heard all too often. Unless members of these groups have used specific terms to reclaim their identity and as a means of empowerment, it is not generally acceptable to use terms such as 'dyke' or 'queer', 'poofter', and so on.</p>
+  <div class="table">
+    <table>
+        <tr>
+          <th> Appropriate </th>
+          <th> Inappropriate</th>
+        </tr>
+        <tr>
+          <td>Humans, humankind, spokesperson, chairperson.</td>
+          <td>Man, mankind, spokesman, chairman</td>
+        </tr>
+        <tr>
+          <td>Office staff, doctor, cleaner, professor</td>
+          <td>The girls in the office, woman doctor, male nurse, cleaning lady, female professor</td>
+        </tr>
+        <tr>
+          <td>Actor, author, manager</td>
+          <td>Authoress, actress, manageress</td>
+        </tr>
+      </table>
+    </div>
+</div>
+</div>
+<!--Language and disability-->
+<div id="myModal5" class="modal">
+<!-- Modal content -->
+<div class="modal-content">
+  <span class="close" id="close5">&times;</span>
+  <p>It is important that people with a disability feel that they are part of university life and are not excluded through the inappropriate use of language. Language that constructs people with disabilities as victims and focuses on the disability and not the person is inappropriate. It is therefore important to put the person, not the disability first.</p>
+  <div class="table">
+    <table>
+        <tr>
+          <th> Appropriate </th>
+          <th> Inappropriate</th>
+        </tr>
+        <tr>
+          <td>Person with a disability</td>
+          <td>Handicapped or disabled</td>
+        </tr>
+        <tr>
+          <td>Person with a hearing impairment	</td>
+          <td>Deaf</td>
+        </tr>
+        <tr>
+          <td>Person with a visual impairment	</td>
+          <td>Blind</td>
+        </tr>
+        <tr>
+          <td>Person with a psychiatric disorder</td>
+          <td>Mad/insane</td>
+        </tr>
+      </table>
+    </div>
+      <p>In summary, it is important to remember that inclusive language is required at university and students are encouraged to use appropriate terms and language in all their written and oral communications.</p>
+</div>
+</div>
+<!-- Trigger/Open The Modal(2card)-->
+<!--Sentence structure-->
+<!-- The Modal -->
+<div id="myModal6" class="modal">
+<!-- Modal content -->
+<div class="modal-content">
+  <span class="close" id="close6">&times;</span>
+  <p>Sentences can be short and concise, or longer and more complex. However, it is important to vary the length of your sentences so that your writing doesn't sound too abrupt (with the overuse of short sentences), or too densely packed with ideas (with the overuse of long sentences).</p>
+  <p>One of the most common problems in writing is students writing sentence fragments rather than complete sentences.</p>
+  <p>What is a sentence?</p>
+  <p>A complete sentence (which is also called an independent clause) must always contain a subject and a verb. For example:</p>
+  <div class="table">
+<table>
+    <tr>
+      <th> Appropriate </th>
+      <th> Inappropriate</th>
+    </tr>
+    <tr>
+      <td>Indigenous Australian people</td>
+      <td>aborigines</td>
+    </tr>
+    <tr>
+      <td>Aboriginal people</td>
+      <td>Black or blackfellas</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Half caste, quarter caste, full blood</td>
+    </tr>
+  </table>
+</div>
+</div>
+</div>
+
+
+
+
+
+
 
 </div>
 </div>

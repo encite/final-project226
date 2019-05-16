@@ -28,9 +28,40 @@ span3.onclick = function() {
   modal3.style.display = "none";
 }
 
+var modal4 = document.getElementById('myModal4');
+var btn4 = document.getElementById("myBtn4");
+var span4 = document.getElementById("close4");
+btn4.onclick = function() {
+  modal4.style.display = "block";
+}
+span4.onclick = function() {
+  modal4.style.display = "none";
+}
+
+var modal5 = document.getElementById('myModal5');
+var btn5 = document.getElementById("myBtn5");
+var span5 = document.getElementById("close5");
+btn5.onclick = function() {
+  modal5.style.display = "block";
+}
+span5.onclick = function() {
+  modal5.style.display = "none";
+}
+
+var modal6 = document.getElementById('myModal6');
+var btn6 = document.getElementById("myBtn6");
+var span6 = document.getElementById("close6");
+btn6.onclick = function() {
+  modal6.style.display = "block";
+}
+span6.onclick = function() {
+  modal6.style.display = "none";
+}
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal1 || event.target == modal2 || event.target == modal3) {
+  if (event.target == modal1 || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5
+    || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10) {
     modal1.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";

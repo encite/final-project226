@@ -21,10 +21,9 @@
   color: #42858C;
 }
 
-.footer-img{
-  display: inline-block;
-  position: relative;
-  text-align: right;
+div.footer-desc{
+  text-align: justify;
+  display: inline-flex;
 }
 
 @media only screen and (max-width: 750px) {
