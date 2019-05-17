@@ -1,2 +1,4 @@
 # final-project226
-<<<HEADER
+<header>
+<title>the academic Writing</title>
+</header>
