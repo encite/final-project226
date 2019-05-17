@@ -20,62 +20,67 @@ body{
 
 }
 
-html{
-  font-size: 10px;
-  font-family: "Roboto", "sans-serif";
-  display: table;
-  margin: auto;
-  height: 100%;
-  position: relative;
-}
 
-body {
-  font-family: "Roboto", "sans-serif";;
-  background: #F0F1EB;
-  margin: 5px 0;
-  padding: 5px 0;
-  text-align:center;
-  padding-left: 50px;
-  padding-right: 50px;
-  /* max-width: 100rem; */
-}
 
-title{
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: white;
-  margin-top: -20px;
-  text-align: center;
-  font-family:sans-serif;
-  background: #201644;
-  background-size: 100%;
-  font-size: 2em;
+@media(min-width: 760px) {
 }
-///*#back-to-top-btn {
-  background-color: #fff;
-  width: 50px;
-  height: 50px;
-  font-size: 26px;
-  color: #333;
-  outline: none;
-  cursor: pointer;
-  border: 3px solid #333;
-  border-radius: 50%;
-  position: fixed;
-  display: none;
+  html{
+    font-size: 10px;
+    font-family: "Roboto", "sans-serif";
+    display: table;
+    margin: auto;
+    height: 100%;
+    position: relative;
+  }
 
-  bottom: 20px;
-  right: 30px;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-property: background-color, color;
+  body {
+    font-family: "Roboto", "sans-serif";;
+    background: #F0F1EB;
+    margin: 5px 0;
+    padding: 5px 0;
+    text-align:center;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* max-width: 100rem; */
+  }
 
-}
-#back-to-top-btn:hover, #back-to-top-btn:focus{
-  background-color: #333;
-  color: #fff;
-}
-.btnEntrance{
+  title{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    margin-top: -20px;
+    text-align: center;
+    font-family:sans-serif;
+    background: #201644;
+    background-size: 100%;
+    font-size: 2em;
+  }
+  button#back-to-top-btn {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    border: 3px solid #333;
+    border-radius: 50%;
+    position: fixed;
+    /*display: none;*/
+    bottom: 20px;
+    right: 30px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+
+  }
+  button#back-to-top-btn:hover, button#back-to-top-btn:focus{
+    background-color: #333;
+    color: #fff;
+  }
+
+
+/*.btnEntrance{
   animation-duration: 0.5s;
   animation-fill-mode: both;
   animation-name: btnEntrance;

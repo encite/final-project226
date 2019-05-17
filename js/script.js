@@ -68,17 +68,19 @@ window.onclick = function(event) {
   }
 }
 // back to top button//
-/*var btn = $('#button');
+// DONT USE JQUERY!!!!!!
+var btn = document.querySelector('#back-to-top-btn');
 
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 10) {
-    btn.addClass('show');
+window.addEventListener('scroll', function(evt) {
+  if (evt.scrollY > 10) { // check this
+    btn.classList.add('show');
   } else {
-    btn.removeClass('show');
+    btn.classList.remove('show');
   }
 });
 
-btn.on('click', function(e) {
+btn.addEventListener('click', function(e) {
   e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '600');
-});*/
+  window.scrollTo({y: 0, behavior: 'smooth'});
+//  $('html, body').animate({scrollTop:0}, '600');
+});
