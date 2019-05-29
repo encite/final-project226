@@ -58,6 +58,16 @@ span6.onclick = function() {
   modal6.style.display = "none";
 }
 
+var modal9 = document.getElementById('myModal9');
+var btn9 = document.getElementById("myBtn9");
+var span9 = document.getElementById("close9");
+btn9.onclick = function() {
+  modal9.style.display = "block";
+}
+span9.onclick = function() {
+  modal9.style.display = "none";
+}
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal1 || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5
