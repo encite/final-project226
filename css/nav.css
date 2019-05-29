@@ -1,7 +1,6 @@
 .navbar {
-  font-size: 18px;
+  font-size: 16px;
   background-color: rgb(32, 22, 68);
-  border: 1px solid rgba(0, 0, 0, 0.2);
   position: sticky;
   width: 100%;
   padding: 5px;
@@ -10,22 +9,28 @@
 .main-nav {
   list-style-type: none;
   display: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
 }
 
 .nav-links, .logo {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.9);
   color: white;
+  text-align: left;
+  display: inline-block;
 }
 
 .main-nav li {
-  text-align: left;
+  text-align: center;
   margin: 15px auto;
+
 }
 
 .logo {
   display: inline-block;
-  font-size: 22px;
+  font-size: 24px;
   margin-top: 10px;
   color: white;
   }
@@ -35,15 +40,16 @@ span#js-navbar-toggle {
     position: absolute;
     right: 40px;
     cursor: pointer;
-    top: 10px;
+    margin-top: 10px;
     font-size: 25px;
 }
 .active {
   display: block;
 }
+
 @media screen and (min-width: 768px) {
           .navbar {
-              display: flex;
+              display: inline-flex;
               justify-content: space-between;
               padding-bottom: 0;
               height: 70px;
@@ -54,15 +60,18 @@ span#js-navbar-toggle {
               display: flex;
               margin-right: 30px;
               flex-direction: row;
-              justify-content: flex-end;
+              justify-content: flex-start;
           }
 
           .main-nav li {
               margin: 0;
+              align-items: center;
+
           }
 
           .nav-links {
-              margin-left: 40px;
+              margin-left:30px;
+
           }
 
           .logo {
