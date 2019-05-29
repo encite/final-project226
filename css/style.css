@@ -288,4 +288,21 @@ table tr th{
   border: 1px solid black;
 }
 /*  footer */
+.footer {
+  position: static;
+  display: inline-block;
+  color: #ffffff;
+  padding: 0.5rem;
+  background-color: rgb(32, 22, 68);
+  margin: 2rem auto;
+  margin-top: 0rem;
+}
+.footer a{
+  color: white;
+  letter-spacing: 1px;
+}
+.footer a:hover{
+  background-color: #046273;
+  color: #ffffff;
+}
 /* making the webpage desktop friendly */
