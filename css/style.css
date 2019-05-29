@@ -364,11 +364,13 @@ table tr th{
   .container {
 	max-width: 1100px;
 	margin: 0 auto;
+  display: flex;
 }
 
  .card-wrapper {
+   float: left;
 	display: flex;
-	justify-content: center;
+	justify-content: relative;
 	flex-wrap: wrap;
 	margin-top: 15px;
 	padding: 1.5%;
@@ -379,8 +381,7 @@ table tr th{
 	position: relative;
 	margin-bottom: 20px;
 	padding-bottom: 30px;
-	background: #fefff9;
-	color: #363636;
+
  }
 
 }
