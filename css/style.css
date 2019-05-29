@@ -3,14 +3,14 @@
 }
 html{
   font-family: "Open Sans",sans-serif;
-  font-size: 100%;
+  /* font-size: 100%; */
   line-height: 1.6em;
   color: #1a1a1a;
   background: #fff;
   -webkit-font-smoothing: antialiased;
 }
 body{
-  width: 1000px;
+  width: 370px;
   margin: 0 auto;
 }
 /*  header*/
@@ -21,7 +21,7 @@ header{
   height:80px;
   box-shadow: 0 5px 15px rgba(0,0,0,.2);
   margin: 2rem auto;
-  width: 75%;
+  /* width: 75%; */
   margin-top: 0rem;
 }
 
@@ -43,12 +43,12 @@ header{
 }
 
 .search-wrapper {
-width: 250px;
+/* width: 250px; */
 margin-right: 20px;
 }
 
 .search-wrapper input {
-width: 150px;
+/* width: 150px; */
 height: 40px;
 padding-left: 5px;
 padding-right: 5px;
@@ -86,59 +86,19 @@ background-color: #D83C3C;
 border-radius: 3px;
 }
 
-
-.logo ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-
-.logo ul li{
-  float: left;
-  text-decoration: none;
-}
-.logo ul li a{
-  display: block;
-  width: 100%;
-  color: blue;
-}
-
-#hcontent, #hcontent2, #hcontent3{
-  display: none;
-}
-
-.menu_icon{
-  display: inline-block;
-  cursor: pointer;
-  position: relative;
-  display: none;
-  float: left;
-}
-
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-
 /* navigation css */
 nav{
   align-items: center;
-  margin-left: 8rem;
+  /* margin-left: 8rem; */
 }
 .navbar {
   font-size: 16px;
   background-color: rgb(32, 22, 68);
   position: sticky;
-  max-width: 75%;
+  /* max-width: 75%; */
 
   /* margin-left: 2rem auto; */
-  /* padding: 5px; */
+  padding: 5px;
   /* text-align: center; */
 }
 
@@ -185,8 +145,8 @@ span#js-navbar-toggle {
 
 /*cards  */
 .container{
-  margin-left: 5rem;
-  max-width: 75%;
+  /* margin-left: 5rem; */
+  width: 370px;
   background-color: #fff;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
@@ -194,7 +154,7 @@ span#js-navbar-toggle {
     align-content: center;
     flex-direction: column;
     display: block;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 
   }
 .card{
@@ -210,32 +170,32 @@ span#js-navbar-toggle {
   text-align: center;
 }
 .card-icon img{
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   object-fit: cover;
   margin-top: -7rem;
   border-radius: 60%;
     }
 .card-content{
   float: left;
-  width: 30rem;
+  width: 10rem;
   margin-bottom: 0rem;
   height: auto;
   text-align: center;
 }
 .card-content h2{
-  font-size: 32px;
+  font-size: 16px;
   text-decoration: underline;
 }
 .card-content p{
-  font-size: 16px;
+  font-size: 12px;
 }
 .dropdown{
   overflow: hidden;
   margin-bottom: 2rem;
 }
 .dropdown button{
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   border: 1px solid;
   color: white;
   background-color: rgb(32, 22, 68);
@@ -274,7 +234,7 @@ span#js-navbar-toggle {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgb(0,0,0, 0.6); /* Fallback color */
 
 }
 
@@ -326,3 +286,4 @@ table tr th{
   border: 1px solid black;
 }
 /*  footer */
+/* making the webpage desktop friendly */
