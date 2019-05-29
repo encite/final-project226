@@ -109,7 +109,10 @@ nav{
   padding: 0px;
   overflow: hidden;
 }
-
+.main-nav a:hover{
+  background-color: #046273;
+  color: #ffffff;
+}
 .nav-links, .logo {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.9);
