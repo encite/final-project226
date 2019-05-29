@@ -10,7 +10,7 @@ html{
   -webkit-font-smoothing: antialiased;
 }
 body{
-  width: 370px;
+  width: 375px;
   margin: 0 auto;
 }
 /*  header*/
@@ -146,7 +146,7 @@ span#js-navbar-toggle {
 /*cards  */
 .container{
   /* margin-left: 5rem; */
-  width: 370px;
+  width: 100%;
   background-color: #fff;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
@@ -170,18 +170,19 @@ span#js-navbar-toggle {
   text-align: center;
 }
 .card-icon img{
-  width: 10rem;
-  height: 10rem;
+  width: 7rem;
+  height: 7rem;
   object-fit: cover;
   margin-top: -7rem;
   border-radius: 60%;
     }
 .card-content{
-  float: left;
-  width: 5rem;
+  /* float: left; */
+  width: 10rem;
   margin-bottom: 0rem;
+  margin-left: -25px;
   height: auto;
-  text-align: center;
+  /* text-align: center; */
 }
 .card-content h2{
   font-size: 16px;
@@ -214,6 +215,7 @@ span#js-navbar-toggle {
   text-decoration: underline;
   display: block;
   text-align: left;
+  font-size: 12px;
 }
 .dropdown-content a:hover{
 
