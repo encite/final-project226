@@ -109,7 +109,10 @@ nav{
   padding: 0px;
   overflow: hidden;
 }
-
+.main-nav a:hover{
+  background-color: #046273;
+  color: #ffffff;
+}
 .nav-links, .logo {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.9);
@@ -288,6 +291,23 @@ table tr th{
   border: 1px solid black;
 }
 /*  footer */
+.footer {
+  position: static;
+  display: inline-block;
+  color: #ffffff;
+  padding: 0.5rem;
+  background-color: rgb(32, 22, 68);
+  margin: 2rem auto;
+  margin-top: 0rem;
+}
+.footer a{
+  color: white;
+  letter-spacing: 1px;
+}
+.footer a:hover{
+  background-color: #046273;
+  color: #ffffff;
+}
 /* making the webpage desktop friendly */
 @media all and (min-width: 960px){
 
