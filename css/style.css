@@ -443,6 +443,10 @@ a.button{
 	margin-bottom: 20px;
 	padding-bottom: 30px;
  }
+
+ .footer{
+   text-align: left;
+ }
 }
 
 /* back to top button css:*/
