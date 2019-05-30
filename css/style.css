@@ -47,9 +47,9 @@ header{
 margin-right: 15px;
 }
 
-.search-wrapper input {
+/* .search-wrapper input {
 /* width: 150px; */
-height: 30px;
+/* height: 30px;
 padding-left: 5px;
 padding-right: 5px;
 float: left;
@@ -60,13 +60,8 @@ background-color: antiquewhite;
 .search-wrapper input:focus {
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0,0,0,.2);
-}
+} */
 
-.search-wrapper input::-webkit-input-placeholder {
-   text-decoration: #999;
-   font-weight: bold;
-   /* font-style: italic; */
-}
 
 .search-wrapper button {
 overflow: visible;
@@ -76,11 +71,11 @@ border: 0px;
 padding: 0px;
 cursor:pointer;
 height: 30px;
-width: 50px;
+width: 90px;
 /* font-style: bold "Calibri"; */
 color: white;
-text-transform: uppercase;
-background-color: #D83C3C;
+text-transform: none;
+background-color: #3CB371;
 border-radius: 3px;
 }
 
@@ -108,7 +103,7 @@ nav{
   overflow: hidden;
 }
 .main-nav a:hover{
-  background-color: #046273;
+  background-color: c;
   color: #ffffff;
 }
 .nav-links, .logo {
@@ -186,11 +181,11 @@ span#js-navbar-toggle {
   /* text-align: center; */
 }
 .card-content h2{
-  font-size: 16px;
+  font-size: 20px;
   text-decoration: underline;
 }
 .card-content p{
-  font-size: 12px;
+  font-size: 16px;
 }
 .dropdown{
   overflow: hidden;
@@ -325,9 +320,9 @@ table tr th{
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc;
-}
+ /* .active, .accordion:hover {
+  background-color: #046273;
+} */
 
 .accordion:after {
   content: '\002B';
@@ -353,6 +348,10 @@ a.button{
   text-decoration: underline;
   color: initial;
   border-box: 1px black;
+}
+
+a.button:hover{
+  color: blue;
 }
 
 /* making the webpage desktop friendly */
@@ -413,11 +412,7 @@ a.button{
       color: rgba(255, 255, 255, 1);
   }
   .search-wrapper button {
-    width: 80px;
-    height: 40px;
-  }
-  .search-wrapper input{
-    width: 150px;
+    width: 100px;
     height: 40px;
   }
 
