@@ -252,6 +252,9 @@ span#js-navbar-toggle {
   text-align: left;
 }
 
+.underline{
+  text-decoration: underline;
+}
 /* The Close Button */
 .close {
   color: #aaa;
@@ -282,6 +285,7 @@ table, th, td {
 table td{
   text-align: left;
   padding: 1.2rem;
+  background-color: #FAFAD2;
 }
 
 table tr th{
