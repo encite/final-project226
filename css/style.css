@@ -44,19 +44,20 @@ header{
 
 .search-wrapper {
 /* width: 250px; */
-margin-right: 20px;
+margin-right: 15px;
 }
 
 .search-wrapper input {
 /* width: 150px; */
-height: 40px;
+height: 30px;
 padding-left: 5px;
 padding-right: 5px;
 float: left;
-font-style: normal 16px 'Calibri';
+/* font-style: normal 16px 'Calibri'; */
 background-color: #FDC9D9;
 border-radius: 5px 0 0 5px;
-border:0px;
+border: 0px;
+width: 100px;
 }
 
 .search-wrapper input:focus {
@@ -73,13 +74,13 @@ border:0px;
 .search-wrapper button {
 overflow: visible;
 position: relative;
-float: right;
+/* float: right; */
 border: 0px;
 padding: 0px;
 cursor:pointer;
-height: 40px;
-width: 80px;
-font-style: bold "Calibri";
+height: 30px;
+width: 50px;
+/* font-style: bold "Calibri"; */
 color: white;
 text-transform: uppercase;
 background-color: #D83C3C;
@@ -361,6 +362,14 @@ table tr th{
   .logo:hover,
   .nav-links:hover {
       color: rgba(255, 255, 255, 1);
+  }
+  .search-wrapper button {
+    width: 80px;
+    height: 40px;
+  }
+  .search-wrapper input{
+    width: 150px;
+    height: 40px;
   }
 
   .container {
