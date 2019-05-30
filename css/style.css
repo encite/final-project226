@@ -53,8 +53,13 @@ height: 30px;
 padding-left: 5px;
 padding-right: 5px;
 float: left;
+<<<<<<< HEAD
 /* font-style: normal 16px 'Calibri'; */
 background-color: #FDC9D9;
+=======
+font-style: normal 16px 'Calibri';
+background-color: #f5dc7f;
+>>>>>>> 784a3a46f344a5889257c3eabf7213f17642bc14
 border-radius: 5px 0 0 5px;
 border: 0px;
 width: 100px;
@@ -247,11 +252,12 @@ span#js-navbar-toggle {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 35% auto; /* 35% from the top and centered */
+  margin: 5% auto; /* 35% from the top and centered */
   padding: 20px;
   border: 5px solid #888;
   border-radius: 20px;
   width: 80%; /* Could be more or less, depending on screen size */
+  text-align: left;
 }
 
 /* The Close Button */
@@ -394,7 +400,43 @@ table tr th{
 	padding-bottom: 30px;
 
  }
+}
 
+/* back to top button css:*/
+/* Adapted from Codepen tutorials */
+
+#goTop{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  text-decoration-color: black;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid black;
+  border-radius: 50%;
+  transition-duration: 0.05s;
+  transition-timing-function: easy-ease-in-out;
+  transition-property: background-color, color;
+}
+
+#goTop:hover,
+#goTop:focus{
+  background-color: rgb(32, 22, 68);
+  color: white;
+}
+
+@media(max-width: 960px){
+  #goTop {
+    font-size: 22px;
+    width: 40px;
+    height:40px; bottom: 15px;
+    right: 15px;
+  }
 }
 
 @media all and (max-width: 960px){
