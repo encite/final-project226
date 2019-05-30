@@ -88,7 +88,10 @@ span9.onclick = function() {
   modal9.style.display = "none";
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 89e187b0732b5b8ab1d7d5bd4e8ab9e836b2798e
 var modal19 = document.getElementById('myModal19');
 var btn19 = document.getElementById("myBtn19");
 var span19 = document.getElementById("close19");
@@ -112,8 +115,12 @@ span11.onclick = function() {
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal1 || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5
+<<<<<<< HEAD
 
     || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal19) {
+=======
+    || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10   || event.target == modal11 || event.target == modal19) {
+>>>>>>> 89e187b0732b5b8ab1d7d5bd4e8ab9e836b2798e
     modal1.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
