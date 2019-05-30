@@ -88,7 +88,6 @@ span9.onclick = function() {
   modal9.style.display = "none";
 }
 
-<<<<<<< HEAD
 var modal19 = document.getElementById('myModal19');
 var btn19 = document.getElementById("myBtn19");
 var span19 = document.getElementById("close19");
@@ -97,7 +96,7 @@ btn19.onclick = function() {
 }
 span19.onclick = function() {
   modal19.style.display = "none";
-=======
+
 var modal11 = document.getElementById('myModal11');
 var btn11 = document.getElementById("myBtn11");
 var span11 = document.getElementById("close11");
@@ -106,18 +105,13 @@ btn11.onclick = function() {
 }
 span11.onclick = function() {
   modal11.style.display = "none";
->>>>>>> c5cf24188337a3cd9840aa2f5ae94b44a04865d0
+
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal1 || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5
-<<<<<<< HEAD
-    || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal19) {
-=======
-    || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10
-    || event.target == modal11) {
->>>>>>> c5cf24188337a3cd9840aa2f5ae94b44a04865d0
+    || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10   || event.target == modal11 || event.target == modal19) {
     modal1.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
