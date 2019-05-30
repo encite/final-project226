@@ -68,6 +68,16 @@ span7.onclick = function() {
   modal7.style.display = "none";
 }
 
+var modal8 = document.getElementById('myModal8');
+var btn8 = document.getElementById("myBtn8");
+var span8 = document.getElementById("close8");
+btn8.onclick = function() {
+  modal8.style.display = "block";
+}
+span8.onclick = function() {
+  modal8.style.display = "none";
+}
+
 var modal9 = document.getElementById('myModal9');
 var btn9 = document.getElementById("myBtn9");
 var span9 = document.getElementById("close9");

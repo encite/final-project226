@@ -285,6 +285,7 @@ table, th, td {
 table td{
   text-align: left;
   padding: 1.2rem;
+  background-color: #FAFAD2;
 }
 
 table tr th{
