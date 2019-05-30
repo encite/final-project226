@@ -109,10 +109,22 @@ span11.onclick = function() {
 
 }
 
+var modal20 = document.getElementById('myModal20');
+var btn20 = document.getElementById("myBtn20");
+var span20 = document.getElementById("close20");
+btn20.onclick = function() {
+  modal20.style.display = "block";
+}
+span20.onclick = function() {
+  modal20.style.display = "none";
+
+}
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal1 || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5
-    || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10   || event.target == modal11 || event.target == modal19) {
+    || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10
+    || event.target == modal11 || event.target == modal19 || event.target == modal20) {
     modal1.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
