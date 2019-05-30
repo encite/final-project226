@@ -246,11 +246,12 @@ span#js-navbar-toggle {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 35% auto; /* 35% from the top and centered */
+  margin: 5% auto; /* 35% from the top and centered */
   padding: 20px;
   border: 5px solid #888;
   border-radius: 20px;
   width: 80%; /* Could be more or less, depending on screen size */
+  text-align: left;
 }
 
 /* The Close Button */
