@@ -77,20 +77,23 @@ window.onclick = function(event) {
     modal3.style.display = "none";
   }
 }
+
 // back to top button//
-// DONT USE JQUERY!!!!!!
-var btn = document.querySelector('#back-to-top-btn');
+const backToTopButton = document.querySelector("#goTop");
 
-window.addEventListener('scroll', function(evt) {
-  if (evt.scrollY > 10) { // check this
-    btn.classList.add('show');
-  } else {
-    btn.classList.remove('show');
+window.addEventListener("scroll", scrollFunction);
+
+function scrollFunction() {
+  if (window.pageYOffset > 600) {
+    backToTopButton.style.display = "block";
   }
-});
+  else {
+    backToTopButton.style.display = "none";
+  }
+}
 
-btn.addEventListener('click', function(e) {
-  e.preventDefault();
-  window.scrollTo({y: 0, behavior: 'smooth'});
-//  $('html, body').animate({scrollTop:0}, '600');
-});
+backToTopButton.addEventListener("click", backToTop);
+
+function backToTop() {
+  window.scrollTo(0, 0);
+}
