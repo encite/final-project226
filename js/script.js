@@ -96,6 +96,7 @@ btn19.onclick = function() {
 }
 span19.onclick = function() {
   modal19.style.display = "none";
+}
 
 var modal11 = document.getElementById('myModal11');
 var btn11 = document.getElementById("myBtn11");
